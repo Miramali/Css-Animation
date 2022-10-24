@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    
+    
+    
+}
+body{
+    
+    background-image: url(../images/hh.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+h2{
+    
+    font-size: 30px;
+    color: rgb(246, 243, 248);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.div1{
+    /* find a target */
+    width:200px;
+    height: 200px;
+   background-image: url(../images/look.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 50%;
+   
+    
+   
+
+    animation-name: sucess;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    
+    animation-fill-mode: forwards;
+}
+
+@keyframes sucess{
+    0% {opacity: 1; left:0px;}
+    25% {width:300px; height:300px; left:25%;transform: rotate(79deg) translate(-1px,0px);
+        -webkit-transform: rotate(79deg) translate(-1px,0px);
+        -moz-transform: rotate(79deg) translate(-1px,0px);}
+
+    50% {opacity: 1;width:400px; height:400px; left:50%;transform: rotate(138deg) translate(-1px,0px);
+        -webkit-transform: rotate(138deg) translate(-1px,0px);
+        -moz-transform: rotate(138deg) translate(-1px,0px);}
+
+    75% {width:280px; height:300px; left:75%;transform: rotate(197deg) translate(-1px,0px);
+        -webkit-transform: rotate(197deg) translate(-1px,0px);
+        -moz-transform: rotate(197deg) translate(-1px,0px);transform: rotate(360deg) translate(-1px,0px);
+        -webkit-transform: rotate(360deg) translate(-1px,0px);
+        -moz-transform: rotate(360deg) translate(-1px,0px);}
+
+    100% {opacity: 1;left:1320px;}
+}
+.div2{
+    /* find a team */
+    width:200px;
+    height: 200px;
+    background-image: url(../images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+    
+    animation-name: sucess;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    
+    opacity: 0;
+    
+    
+    
+   
+}
+
+.div3{
+    /* do a plan */
+    width:200px;
+    height: 200px;
+    
+    background-image: url(../images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+    opacity: 0;
+    
+
+    animation-name: sucess;
+    
+    animation-duration: 3s;
+    animation-delay: 7s;
+    animation-direction: alternate;
+    
+    animation-fill-mode: forwards;
+   
+    animation-timing-function: linear;
+    
+}
+.div4{
+    /* fail */
+    width:200px;
+    height: 200px;
+    background-image: url(../images/4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+    
+    animation-name: sucess;
+    animation-direction: reverse;
+    animation-delay: 10s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.div5{
+    /* don't give up and work harder */
+    width:200px;
+    height: 200px;
+    background-image: url(../images/work.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+    animation-name: sucess;
+    animation-duration: 3s;
+    animation-delay: 13s;
+    
+    animation-timing-function: linear;
+    
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+.div6{
+    /* self confident */
+    width:200px;
+    height: 200px;
+    background-image: url(../images/7.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+    animation-name: sucess;
+    animation-direction: reverse;
+    animation-duration: 3s;
+    animation-delay: 16s;
+    
+    animation-timing-function: linear;
+    
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.div7{
+    /* /start to see the result/ */
+    width:200px;
+    height: 200px;
+    background-image: url(../images/Jan40.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+    animation-name: sucess;
+    animation-duration: 3s;
+    animation-delay: 19s;
+    
+    animation-timing-function: linear;
+    
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+.div8{
+    /* succeed */
+    width:200px;
+    height: 200px;
+    background-image: url(../images/8.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+    text-align: center;
+    font-weight: bold;
+    
+    
+    animation-name: sucess;
+    animation-direction: reverse;
+    animation-delay: 22s;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
